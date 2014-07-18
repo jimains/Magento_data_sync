@@ -42,11 +42,12 @@ scp -C $dump_location_host:$production_path_to_dump $staging_alias:$staging_home
 ### Check is compressed
 #### if so decompress ##
 
-## Run MySQL import ##
+## export_admin_tables.sql
 
-## Run secondary import (sanistise with options)
+## bulk_db_clean.sql / bulk_db_clean_retain_orders.sql / bulk_db_clean_retain_products.sql / bulk_db_clean_retain_products_orders.sql
 
-## Run last import to set base URL
+## bulk_admin_tables.sql
+
+## update_base_urls.sql
 
 ## Remove maintenance flag
-
